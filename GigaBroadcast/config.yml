@@ -1,0 +1,17 @@
+general:
+    prefix: '[Broadcast]'
+    default_text_color: 3
+auto_broadcast:
+    enabled: true
+    intervall: 20
+    random: true
+    messages:
+    - message: 'Primo messaggio di prova'
+      multipler: 1
+      enabled: true
+    - message: 'Secondo messaggio di proova'
+      multipler: 5
+      enabled: true
+    - message: 'Messaggio non attivo'
+      multipler: 1
+      enabled: false
